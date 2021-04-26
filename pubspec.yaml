@@ -1,7 +1,7 @@
 name: libvips
 description: Dart binding for libvips
-version: 0.0.1-dev.0
-# homepage: https://www.example.com
+version: 0.0.1
+homepage: https://github.com/leoafarias/dart-libvips
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
