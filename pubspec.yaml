@@ -1,0 +1,22 @@
+name: libvips
+description: Dart binding for libvips
+version: 0.0.1-dev.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+# dependencies:
+
+dev_dependencies:
+  ffigen: ^2.4.2
+  pedantic: ^1.9.0
+  test: ^1.14.4
+
+ffigen:
+  name: "Libvips"
+  description: "Bindings to libvips"
+  output: "lib/src/bindings.dart"
+  headers:
+    entry-points:
+      - vips/vips.h
